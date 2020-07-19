@@ -1,0 +1,35 @@
+{
+  "name": "jewcy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "connect jewish and israeli american teens",
+  "main": "index.js",
+  "engines": {
+    "node": "12.9.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "http": "0.0.0",
+    "jquery": "^3.4.1",
+    "node-sessionstorage": "^1.0.0",
+    "nunjucks": "^3.2.0",
+    "params": "^0.1.1",
+    "pg": "^7.18.1",
+    "pg-promise": "^10.4.3",
+    "renderjson": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "author": "daniel kogan",
+  "license": "ISC"
+}

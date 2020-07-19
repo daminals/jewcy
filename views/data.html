@@ -1,0 +1,41 @@
+{% extends "template.html" %}
+
+{% block head %}
+
+
+<script type="text/javascript">
+import * as db from "../config";
+
+$(function() {
+
+    $('#data').append(db.getProfile)
+
+});
+
+
+    let template = {'<>':'div','html':'${id} ${name} ${joined} ${pfp} '};
+
+
+    document.write(json2html.transform(db.getProfile,template) );
+
+</script>
+
+
+
+{% endblock %}
+
+
+
+
+{% block body %}
+
+
+uwu data time
+<br/>
+<br/>
+<div id="data">
+
+</div>
+
+
+{% endblock %}

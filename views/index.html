@@ -1,0 +1,28 @@
+{% extends "template.html" %}
+
+
+
+{% block body %}
+
+
+
+uwu <br/>
+go to <br/>
+
+
+<br/>
+
+<form action="/makeUser" method="POST">
+    <div class="form-group">
+        <label for="name"></label>
+        <input type="text" class="form-control" placeholder="your unique username" id="name" name="username">
+        <label for="pfp"></label>
+        <input type="file" class="form-control" id="pfp" name="pfp">
+
+    </div>
+
+    <button type="submit" class="btn btn-primary" onClick="">Submit</button>
+</form>
+
+
+{% endblock %}
